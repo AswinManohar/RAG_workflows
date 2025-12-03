@@ -1,0 +1,13 @@
+[project]
+name = "rag-workflows"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bm25s>=0.2.14",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=5.1.2",
+]
